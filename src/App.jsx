@@ -2,19 +2,30 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import SearchBar from './components/SearchBar.jsx'
+import Homepage from './components/Homepage.jsx'
+import Header from './components/Header.jsx'
+import EmployeeList from './components/EmployeeList.jsx'
+import EmployeeListItem from './components/EmployeeListItem.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const todoList = [
+    <li key={1}>Call Office</li>,
+    <li key={2}>Call Mobile</li>,
+    <li key={3}>SMS</li>,
+    <li key={4}>Email</li>
+  ]
+  
 
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <div>
+          <Header />
+          <h3>Julie Taylor</h3>
+          <ul>{todoList}</ul>
+
+        </div>
       </div>
       <h1>Vite + React</h1>
       <div className="card">
