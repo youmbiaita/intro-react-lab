@@ -1,11 +1,11 @@
 // src/components/Header.js
 import React from 'react';
-// import './Header.css';
+import './Header.css';
 
 const Header = () => {
   return (
     <header className="header">
-      <h1>Employee Directory</h1>
+      <h3>Employee Directory</h3>
     </header>
   );
 };

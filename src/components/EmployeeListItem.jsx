@@ -1,6 +1,6 @@
 // src/components/EmployeeListItem.js
 import React from 'react';
-// import './EmployeeListItem.css';
+import './EmployeeListItem.css';
 
 const EmployeeListItem = ({ name }) => {
   return (

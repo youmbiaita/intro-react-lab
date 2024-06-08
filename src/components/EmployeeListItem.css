@@ -1,0 +1,10 @@
+.employee-list-item {
+        background-color: white;
+        border: 2px #ff0000 solid;
+        padding: 30px 2px;
+        padding-top: 4px;
+        height: 30px;
+        width: 300px;
+        margin: 5px;
+        color: black;
+}
